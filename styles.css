@@ -1,0 +1,181 @@
+
+/* banner */
+.banner{
+    margin:10px 20px;
+    max-width: 100%;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 20px 0px;
+    border-radius: 32px;
+    transition: 0.3s;
+    display: flex;
+    overflow: hidden;
+}
+.banner:hover{
+    box-shadow: rgba(0, 0, 0, 0.171) 0px 1px 20px 0px;
+}
+.banner-img{
+    width: 50%;
+    margin: 10px 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 20px 0px;
+    border-radius: 32px;
+    overflow: hidden;
+}
+.banner-img img{
+    width: 500px;
+}
+.banner-text{
+    max-width: 50%;
+    margin: 10px 15px;
+    padding: 10px;
+}
+.banner-text h1,p{
+    color: rgb(53, 53, 53);
+}
+/* product */
+.product{
+    margin:30px 20px;
+    max-width: 100%;
+    min-height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 20px 0px;
+    border-radius: 32px;
+    transition: 0.3s;
+    overflow: hidden;
+}
+.product .title{
+    color: #1a1a1d;
+    margin-left: 20px;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    height: 30px;
+    font-size: 20px;
+}
+.product-box{
+    display: flex;
+    flex-flow: wrap;
+}
+.product-box{
+    width: 100%;
+    min-height: 100px;
+}
+.product-item{
+    width: 29%;
+    height: 200px;
+    border-radius: 32px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 20px 0px;
+    margin: 10px 20px;
+    transition: 0.2s;
+    overflow: hidden;
+}
+.product-item-layer{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    background: rgba(0, 0, 0, 0.123);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.37);
+    display: none;
+    top:0px;
+}
+.product-item-layer *{
+    position: relative;
+    color: black;
+    padding: 10px 20px;
+}
+.product-item:hover .product-item-layer{
+    display: block;
+}
+.product-item:hover .l1{
+    top:0px;
+}
+.product-item:hover .l2{
+    top:-200px;
+}
+.product-item:hover .l3{
+    top:-400px;
+}
+.p1{
+    background-image: url("https://www.maccosmetics.com/media/export/cms/secondary_navigation/150x150/clp_lipsticks_0_2x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p2{
+    background-image: url("https://sdcdn.io/mac/gb/mac_sku_M8H301_1x1_0.png?width=1080&height=1080");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p3{
+    background-image: url("https://sdcdn.io/mac/gb/mac_sku_M6JC40_1x1_0.png?width=1080&height=1080");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p4{
+    background-image: url("https://sdcdn.io/mac/gb/mac_sku_MGT907_1x1_0.png?width=1080&height=1080");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p5{
+    background-image: url("https://sdcdn.io/mac/gb/mac_sku_S7GR12_1x1_0.png?width=1080&height=1080");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p6{
+    background-image: url("https://sdcdn.io/mac/gb/mac_sku_M53004_1x1_0.png?width=1080&height=1080");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p7{
+    background-image: url("https://sdcdn.io/mac/gb/mac_sku_SLEH01_1x1_0.png?width=1080&height=1080");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p8{
+    background-image: url("https://sdcdn.io/mac/gb/mac_sku_SJR301_1x1_0.png?width=1080&height=1080");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p9{
+    background-image: url("https://sdcdn.io/mac/gb/mac_sku_STXA11_1x1_0.png?width=1080&height=1080");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.p10{
+    background-image: url("https://sdcdn.io/mac/gb/mac_sku_S3KX01_1x1_0.png?width=1080&height=1080");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* new product */
+.new-product{
+    max-width: 100%;
+    min-height: 200px;
+    border-radius: 32px;
+    box-shadow: rgba(0, 0, 0, 0.205) 0px 1px 20px 0px;
+    margin: 30px 20px;
+    display: flex;
+}
+.product-vid-container{
+    width: 50%;
+    max-width: 50%;
+    height: 270px;
+    border-radius: 32px;
+    box-shadow: #00000028 0px 1px 20px 0px;
+    margin: 10px 20px;
+    overflow: hidden
+}
+.new-product-title{
+    width: 50%;
+    max-width: 50%;
+    height: 270px;
+    max-height: 270px;
+    border-radius: 32px;
+    box-shadow: rgba(0, 0, 0, 0.205) 0px 1px 20px 0px;
+    margin: 10px 20px;
+    overflow: hidden;
+    padding:10px 20px;
+    color: #1a1a1d;
+}
+iframe{
+    width:425px;
+    height: 270px;
+}
